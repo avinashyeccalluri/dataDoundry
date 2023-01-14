@@ -1,0 +1,188 @@
+
+*{
+  
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.col,
+.row,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.margin-12 {
+  margin-left: 1.2 rem !important;
+}
+
+.pf-10{
+  
+  padding: 20px 30px 0 20px !important;
+}
+
+header {
+  height: 10vh;
+  display: grid;
+  background-color: #ffffff;
+}
+
+#content {
+  background-color: #f0f0f7;
+}
+
+#heading,
+.nav-heading {
+  height: 10vh;
+  display: grid;
+}
+
+#table_head {
+  background-color: #f5f6fa !important;
+}
+/*  */
+.cp {
+  margin-left: 10px !important;
+}
+
+.mt-10 {
+  margin: 25px 0 10px 0 !important;
+}
+
+#tabs_container {
+  background-color: #ffffff;
+}
+.h-43 {
+  height: 43px !important;
+}
+
+#pagination .MuiButtonBase-root.Mui-selected {
+  background-color: #3fa9f5 !important;
+  color: #ffffff;
+}
+
+#navBar {
+  background-color: #13334a;
+  height: 100vh;
+  color: white;
+}
+
+.main-navBar {
+  width: 20vw;
+}
+
+.main-content {
+  width: 80vw;
+}
+
+.nav-content {
+  padding: 0 30px 0 20px !important;
+}
+
+.w-15{
+  width: 15%;
+  transition: 0.5s;
+}
+.w-95{
+  width: 95%;
+  transition: 0.5s;
+}
+
+.w-85{
+  width: 85% !important;
+}
+
+.w-5{
+  width: 5% !important;
+  transition: 0.5s;
+}
+
+.nav-desc-hide{
+  display: none;
+  transition: 0.5s;
+}
+
+
+.ham-burger:hover {
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 30px !important;
+}
+
+
+
+
+
+
+/* avinash starts here for bootstrap */
+
+
+.hamburger {
+  position: relative;
+} 
+
+
+.btn13 .icon {
+  transition-duration: 0.5s;
+  position: absolute;
+  right: 20px;
+  height: 4px;
+  width: 30px;
+  top: 30px;
+  background-color: #ffffff;
+}
+.btn13 .icon:before {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  content: "";
+  top: -10px;
+}
+.btn13 .icon:after {
+  transition-duration: 0.5s;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: #ffffff;
+  content: "";
+  top: 10px;
+}
+.btn13.open .icon {
+  transition: 0.5s;
+}
+.btn13.open .icon:before {
+  transform: rotateZ(-45deg) scaleX(0.75) translate(-10px, -3px);
+}
+.btn13.open .icon:after {
+  transform: rotateZ(45deg) scaleX(0.75) translate(-10px, 3px);
+}
+
+
