@@ -1,8 +1,7 @@
 import Header from "./components/Header";
-import Content from "./components/Content";
-import Navbar from "./components/NavBar"
-import Tabs from "./components/Tabs";
-import Table from "./components/Table";
+import Home from './components/Home'
+import Navbar from "./components/NavBar";
+
 
 function App() {
   return (
@@ -10,9 +9,8 @@ function App() {
     <div className="w-15" id="naveBar-outer-container">
       <Navbar/>
     </div>
-      <div className="w-85" id="content-outer-container">
-        <Header></Header>
-        <Content></Content>
+      <div className="w-95" id="content-outer-container">
+        <Home></Home>
       </div>
     </div>
   );

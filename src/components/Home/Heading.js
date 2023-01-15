@@ -1,7 +1,6 @@
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
-import {colorCodes} from './configurations/colourCodes'
-import { deepOrange, deepPurple } from "@mui/material/colors";
+import {colorCodes} from '../../configurations/colourCodes'
 
 const heading = () => {
   return (

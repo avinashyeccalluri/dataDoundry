@@ -1,6 +1,6 @@
 import Heading from './Heading'
 import Tabs from './Tabs'
-import "../index.css";
+import "../../index.css";
 
 const content = () => {
   return (

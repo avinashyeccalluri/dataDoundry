@@ -12,26 +12,26 @@ const header = () => {
             <div className="col-4">
               <div className="row">
                 <div className="col">
-                  <AdjustIcon color="grey" />
+                  <AdjustIcon style={{ color: "grey" }}/>
                 </div>
                 <div className="col">
-                  <SettingsIcon />
+                  <SettingsIcon style={{ color: "grey" }} />
                 </div>
                 <div className="col">
-                  <NotificationsIcon />
+                  <NotificationsIcon style={{ color: "grey" }} />
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-3">
               <div className="row">
-                <div className="col-8">Tigran Grigoryan</div>
+                <div className="col-8">Avinash Yeccaluri</div>
                 <div className="col-2">
-                  <KeyboardArrowDownIcon />
+                  <KeyboardArrowDownIcon style={{ color: "grey" }} />
                 </div>
               </div>
             </div>
             <div className="col-2">
-              <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+              <Avatar alt="Avinash Yeccaluri" src="/static/images/avatar/1.jpg" />
             </div>
           </div>
         </div>
